@@ -3,14 +3,13 @@ package mvc.view;
 /**
  * Created by ahmedyakout on 11/1/16.
  */
-import mvc.controller.MainGuiController;
-import mvc.view.MainGuiView;
 
+import mvc.controller.MainGuiController;
+
+import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-
-import javax.swing.*;
 
 public class SharePainterWindow extends JFrame {
     private JPanel contentPane;

@@ -1,8 +1,7 @@
 package fileFilters;
 
-import java.io.File;
-
 import javax.swing.filechooser.FileFilter;
+import java.io.File;
 
 /**
  * filter for json files

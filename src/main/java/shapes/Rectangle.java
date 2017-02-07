@@ -1,7 +1,6 @@
 package shapes;
 
 import mvc.controller.PainterPanelController;
-import shapes.Point;
 
 import java.awt.*;
 

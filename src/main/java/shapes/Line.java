@@ -1,8 +1,8 @@
 package shapes;
 
-import java.awt.Color;
-import java.awt.Graphics;
 import mvc.controller.PainterPanelController;
+
+import java.awt.*;
 
 /**
  * 

@@ -1,16 +1,14 @@
 package mvc.controller;
 
-import java.awt.Component;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-
-import javax.swing.JButton;
-import javax.swing.JPanel;
-
 import mvc.model.Model;
 import mvc.view.MainGuiView;
 import mvc.view.OprationBarFactory;
 import shapes.Shape;
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 /**
  * This class is use to control every thing in the operation bar

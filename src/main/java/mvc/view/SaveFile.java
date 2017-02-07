@@ -1,15 +1,8 @@
 package mvc.view;
 
-import java.awt.Color;
-import java.awt.Graphics;
-import java.awt.image.BufferedImage;
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
-import javax.imageio.ImageIO;
-import javax.swing.JFileChooser;
-import javax.swing.JFrame;
-
+import com.thoughtworks.xstream.XStream;
+import com.thoughtworks.xstream.io.json.JettisonMappedXmlDriver;
+import com.thoughtworks.xstream.io.xml.StaxDriver;
 import fileFilters.DataOfShapes;
 import fileFilters.JasonSaveFileFilter;
 import fileFilters.pngSaveFilter;
@@ -17,9 +10,14 @@ import fileFilters.xmlSaveFilter;
 import mvc.controller.PainterPanelController;
 import mvc.model.Model;
 import shapes.Shape;
-import com.thoughtworks.xstream.XStream;
-import com.thoughtworks.xstream.io.json.JettisonMappedXmlDriver;
-import com.thoughtworks.xstream.io.xml.StaxDriver;
+
+import javax.imageio.ImageIO;
+import javax.swing.*;
+import java.awt.*;
+import java.awt.image.BufferedImage;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
 
 
 /**

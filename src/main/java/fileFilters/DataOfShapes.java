@@ -1,10 +1,11 @@
 package fileFilters;
 
 
+import shapes.Shape;
+
 import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
-import shapes.Shape;
 
 /**
  * @author YS team;

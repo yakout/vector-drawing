@@ -1,6 +1,6 @@
 import mvc.controller.MainGuiController;
 
-import java.awt.EventQueue;
+import java.awt.*;
 
 /**
  * contains the main method that launch the whole application.

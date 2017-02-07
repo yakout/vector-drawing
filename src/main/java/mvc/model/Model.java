@@ -4,15 +4,16 @@ import mvc.controller.ToolBarController;
 import mvc.view.MainGuiView;
 import mvc.view.ToolBarFactory;
 import shapes.Shape;
-import javax.swing.JFileChooser;
+
+import javax.swing.*;
 import java.io.File;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLClassLoader;
-import java.util.Map;
-import java.util.List;
-import java.util.HashMap;
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 /**
  * Created on 10/26/16.

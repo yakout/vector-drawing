@@ -1,8 +1,9 @@
 package shapes;
 
+import mvc.controller.PainterPanelController;
+
 import java.awt.*;
 import java.awt.geom.Ellipse2D;
-import mvc.controller.PainterPanelController;
 
 /**
  * Class of 2DEllipse

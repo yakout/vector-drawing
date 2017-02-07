@@ -1,10 +1,10 @@
 package shapes;
 
+import mvc.controller.PainterPanelController;
+
 import java.awt.*;
 import java.util.ArrayList;
 import java.util.List;
-
-import mvc.controller.PainterPanelController;
 
 public abstract class Polygon implements Shape {
     /**

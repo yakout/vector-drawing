@@ -2,18 +2,9 @@ package mvc.view;
 
 import mvc.controller.MainGuiController;
 import mvc.controller.PainterPanelController;
-import mvc.model.Model;
-import server.Client;
-import shapes.*;
-import shapes.Shape;
 
 import javax.swing.*;
 import java.awt.*;
-import java.io.ByteArrayOutputStream;
-import java.io.IOException;
-import java.io.ObjectOutputStream;
-import java.util.*;
-import java.util.List;
 
 /**
  * Created on 10/26/16.

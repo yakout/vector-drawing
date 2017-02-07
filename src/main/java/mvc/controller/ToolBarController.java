@@ -3,6 +3,7 @@ package mvc.controller;
 import mvc.model.Model;
 import mvc.view.MainGuiView;
 import mvc.view.ToolBarFactory;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;

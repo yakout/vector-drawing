@@ -1,9 +1,10 @@
 package shapes;
 
+import mvc.controller.PainterPanelController;
+
 import java.awt.*;
 import java.util.ArrayList;
 import java.util.List;
-import mvc.controller.PainterPanelController;
 
 public class RegulerPolygon extends Polygon {
     private List<Point> points = new ArrayList<>();

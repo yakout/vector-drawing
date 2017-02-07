@@ -1,18 +1,14 @@
 package mvc.view;
 
 import javax.imageio.ImageIO;
-import javax.swing.JMenu;
-import javax.swing.JMenuBar;
-import javax.swing.JMenuItem;
-import javax.swing.ImageIcon;
-import javax.swing.KeyStroke;
-import java.awt.Image;
+import javax.swing.*;
+import java.awt.*;
 import java.awt.event.InputEvent;
 import java.awt.event.KeyEvent;
 import java.io.IOException;
 
 /**
- * Created by khlailmohammedyakout on 10/26/16.
+ * Created by Ahmed Yakout on 10/26/16.
  * the menu bar factory class
  */
 public class MenuBarFactory {
