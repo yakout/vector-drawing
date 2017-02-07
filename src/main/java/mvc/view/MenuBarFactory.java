@@ -98,24 +98,24 @@ public class MenuBarFactory {
     private void setIcons() {
         try {
 
-            Image newIcon = ImageIO.read(getClass().getResource("/resources/menubar/fileMenu/newIcon.png"));
-            Image openIcon = ImageIO.read(getClass().getResource("/resources/menubar/fileMenu/openIcon.png"));
-            Image saveIcon = ImageIO.read(getClass().getResource("/resources/menubar/fileMenu/saveIcon.png"));
-            Image exitIcon = ImageIO.read(getClass().getResource("/resources/menubar/fileMenu/exitIcon.png"));
+            Image newIcon = ImageIO.read(getClass().getResource("/menubar/fileMenu/newIcon.png"));
+            Image openIcon = ImageIO.read(getClass().getResource("/menubar/fileMenu/openIcon.png"));
+            Image saveIcon = ImageIO.read(getClass().getResource("/menubar/fileMenu/saveIcon.png"));
+            Image exitIcon = ImageIO.read(getClass().getResource("/menubar/fileMenu/exitIcon.png"));
 
-            Image undoIcon = ImageIO.read(getClass().getResource("/resources/menubar/editMenu/undoIcon.png"));
-            Image redoIcon = ImageIO.read(getClass().getResource("/resources/menubar/editMenu/redoIcon.png"));
+            Image undoIcon = ImageIO.read(getClass().getResource("/menubar/editMenu/undoIcon.png"));
+            Image redoIcon = ImageIO.read(getClass().getResource("/menubar/editMenu/redoIcon.png"));
 
             Image addPluginIcon = ImageIO
-                    .read(getClass().getResource("/resources/menubar/toolsMenu/addPluginIcon.png"));
+                    .read(getClass().getResource("/menubar/toolsMenu/addPluginIcon.png"));
             Image setHistoryLimitIcon = ImageIO
-                    .read(getClass().getResource("/resources/menubar/toolsMenu/setHistoryLimitIcon.png"));
+                    .read(getClass().getResource("/menubar/toolsMenu/setHistoryLimitIcon.png"));
             Image startServerIcon = ImageIO
-                    .read(getClass().getResource("/resources/menubar/toolsMenu/startServerIcon.png"));
+                    .read(getClass().getResource("/menubar/toolsMenu/startServerIcon.png"));
             Image sharePainterIcon = ImageIO
-                    .read(getClass().getResource("/resources/menubar/toolsMenu/sharePainterIcon.png"));
+                    .read(getClass().getResource("/menubar/toolsMenu/sharePainterIcon.png"));
 
-            Image aboutIcon = ImageIO.read(getClass().getResource("/resources/menubar/helpMenu/aboutIcon.png"));
+            Image aboutIcon = ImageIO.read(getClass().getResource("/menubar/helpMenu/aboutIcon.png"));
 
             saveMenuItem.setIcon(new ImageIcon(saveIcon));
             newMenuItem.setIcon(new ImageIcon(newIcon));

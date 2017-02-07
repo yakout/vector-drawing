@@ -1,14 +1,11 @@
 package mvc.view;
 
-import java.awt.Image;
+import javax.imageio.ImageIO;
+import javax.swing.*;
+import java.awt.*;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
-
-import javax.imageio.ImageIO;
-import javax.swing.ImageIcon;
-import javax.swing.JButton;
-import javax.swing.JPanel;
 
 /**
  * Factory class for the operation buttons.
@@ -89,12 +86,12 @@ public class OprationBarFactory extends JPanel {
      */
     private void setButtonsIcon() {
         try {
-            Image resizeIcon = ImageIO.read(getClass().getResource("/resources/toolbar/resizeIcon.png"));
-            Image moveIcon = ImageIO.read(getClass().getResource("/resources/toolbar/moveIcon.png"));
-            Image deleteIcon = ImageIO.read(getClass().getResource("/resources/toolbar/deleteIcon.png"));
-            Image colorChooserIcon = ImageIO.read(getClass().getResource("/resources/toolbar/colorChooserIcon.png"));
-            Image selectIcon = ImageIO.read(getClass().getResource("/resources/toolbar/selectIcon.png"));
-            Image fillIcon = ImageIO.read(getClass().getResource("/resources/toolbar/fillIcon.png"));
+            Image resizeIcon = ImageIO.read(getClass().getResource("/toolbar/resizeIcon.png"));
+            Image moveIcon = ImageIO.read(getClass().getResource("/toolbar/moveIcon.png"));
+            Image deleteIcon = ImageIO.read(getClass().getResource("/toolbar/deleteIcon.png"));
+            Image colorChooserIcon = ImageIO.read(getClass().getResource("/toolbar/colorChooserIcon.png"));
+            Image selectIcon = ImageIO.read(getClass().getResource("/toolbar/selectIcon.png"));
+            Image fillIcon = ImageIO.read(getClass().getResource("/toolbar/fillIcon.png"));
 
             resizeButton.setIcon(new ImageIcon(resizeIcon));
             deleteButton.setIcon(new ImageIcon(deleteIcon));

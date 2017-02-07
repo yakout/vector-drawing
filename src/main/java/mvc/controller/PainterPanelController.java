@@ -3,24 +3,20 @@ package mvc.controller;
 import mvc.model.Model;
 import mvc.model.UpdateCommand;
 import mvc.view.MainGuiView;
-import shapes.Dimensions;
+import mvc.view.OpenFile;
+import mvc.view.RightClickPopUpMenu;
+import shapes.*;
 import shapes.Point;
 import shapes.Rectangle;
-import shapes.RegulerPolygon;
 import shapes.Shape;
-import shapes.Ellipse;
-import shapes.Line;
-import mvc.view.RightClickPopUpMenu;
 
 import javax.swing.*;
-import java.awt.Color;
-import java.awt.Graphics;
+import java.awt.*;
 import java.awt.event.*;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
 import java.util.ArrayList;
 import java.util.List;
-import mvc.view.OpenFile;
 
 /**
  * Created by khlailmohammedyakout on 10/26/16.
@@ -97,7 +93,7 @@ public class PainterPanelController extends JPanel implements MouseListener, Mou
         this.addMouseListener(this);
         this.addMouseMotionListener(this);
         RightClickPopUpMenu rightClickPopUpMenu = new RightClickPopUpMenu();
-        JMenuItem menuItem = (JMenuItem) rightClickPopUpMenu.getComponents()[0];
+        final JMenuItem menuItem = (JMenuItem) rightClickPopUpMenu.getComponents()[0];
 
         menuItem.addActionListener(new ActionListener() {
             @Override

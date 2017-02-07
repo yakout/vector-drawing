@@ -1,16 +1,11 @@
 package mvc.view;
 
 import javax.imageio.ImageIO;
-import javax.swing.JButton;
-import javax.swing.JPanel;
-
-import shapes.Triangle;
-
-import javax.swing.ImageIcon;
+import javax.swing.*;
+import java.awt.*;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
-import java.awt.Image;
 
 /**
  * Created on 10/26/16.
@@ -47,10 +42,10 @@ public class ToolBarFactory extends JPanel {
         drawRegularPolygon=new JButton("Regular Polygon");
         
         try {
-            Image ellipseIcon = ImageIO.read(getClass().getResource("/resources/toolbar/ellipseIcon.png"));
-            Image rectIcon = ImageIO.read(getClass().getResource("/resources/toolbar/rectIcon.png"));
-            Image lineIcon = ImageIO.read(getClass().getResource("/resources/toolbar/lineIcon.png"));
-            Image polygonIcon = ImageIO.read(getClass().getResource("/resources/toolbar/polygonIcon.png"));
+            Image ellipseIcon = ImageIO.read(getClass().getResource("/toolbar/ellipseIcon.png"));
+            Image rectIcon = ImageIO.read(getClass().getResource("/toolbar/rectIcon.png"));
+            Image lineIcon = ImageIO.read(getClass().getResource("/toolbar/lineIcon.png"));
+            Image polygonIcon = ImageIO.read(getClass().getResource("/toolbar/polygonIcon.png"));
 
             drawLineButton.setIcon(new ImageIcon(lineIcon));
             drawOvalButton.setIcon(new ImageIcon(ellipseIcon));
@@ -79,7 +74,7 @@ public class ToolBarFactory extends JPanel {
     public JButton addNewShapeButton(String shapeName) {
         JButton newButton = new JButton(shapeName);
         try {
-            Image otherShapeIcon = ImageIO.read(getClass().getResource("/resources/toolbar/otherShapeIcon.png"));
+            Image otherShapeIcon = ImageIO.read(getClass().getResource("/toolbar/otherShapeIcon.png"));
             newButton.setIcon(new ImageIcon(otherShapeIcon));
         } catch (IOException e) {
             MainGuiView.getMainGuiView().showError("failed to set icon to the new shape button");
